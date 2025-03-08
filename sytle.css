@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 100px;
+    margin-left: 300px;
+    border: black solid 2px;
+    width: 700px;
+    height: 400px;
+    background-image: url('gym.webp');
+    font-family: sans-serif;
+    align-items: flex-start; 
+    padding: 20px;
+   
+}
+.firstline{
+    display: flex;
+    gap: 280px;
+    
+}
+.name{
+    border: 1px solid rgb(80,77,78) ;
+    padding: 15px;
+    width: 300px;        
+    height: 20px; 
+    display: flex;
+    align-items: center;      
+    background-color:rgb(80,77,78); 
+    border-top-right-radius: 50px; 
+    border-bottom-right-radius: 50px;
+    color: aliceblue;
+
+}
+
+.logo {
+    width: 60px; 
+    height: auto; 
+    border-radius: 1rem;
+   
+}
+.logoo{
+    width: 60px;  
+    height: auto;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+.member{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color:  rgb(0, 0, 0);
+    font-family: "Maven Pro", sans-serif;
+    font-size: 2em;
+    background: linear-gradient(to right, grey, rgb(255, 159, 140));
+}
+
+
+.phone{
+    display: flex;
+    
+    gap: 15px;
+   
+   
+}
+.lastline{
+    display: flex;
+    margin-top: 80px;
+    gap: 150px;
+    color: rgb(255, 255, 255);
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.insta{
+   background: linear-gradient(to right, grey, rgba(255, 255, 255, 0));
+}
+.email{
+       background: linear-gradient(to right, grey, rgba(255, 255, 255, 0)); 
+}
+.phonee{
+       background: linear-gradient(to right, grey, rgba(255, 255, 255, 0)); 
+}
